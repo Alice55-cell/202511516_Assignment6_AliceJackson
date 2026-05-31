@@ -1,0 +1,13 @@
+#ifndef FUNCTION_H
+#define FUNCTION_H
+#include "LibraryBook.h"
+
+void addBook(LibraryBook books[], int &bookCount, int maxBooks);
+void displayBooks(const LibraryBook books[], int bookCount);
+void searchBook(const LibraryBook books[], int bookCount);
+void borrowBookMenu(LibraryBook books[], int bookCount);
+void returnBookMenu(LibraryBook books[], int bookCount);
+void displayOverdueBooks(const LibraryBook books[], int bookCount);
+void calculateTotalFines(const LibraryBook books[], int bookCount);
+
+#endif
